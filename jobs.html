@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Offres d'Emploi | Lessara Ndjandja</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Lessara Ndjandja</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À Propos</a></li>
+          <li><a href="jobs.html" class="active">Offres d'Emploi</a></li>
+          <li><a href="premium.html">Premium</a></li>
+          <li><a href="partners.html">Partenaires</a></li>
+          <li><a href="blog.html">Ressources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h2>Offres d'Emploi Locales</h2>
+      <p>Retrouvez toutes les offres disponibles dans votre région.</p>
+
+      <!-- Search Bar -->
+      <div style="margin: 2rem 0;">
+        <input type="text" id="searchInput" placeholder="Rechercher par métier, ville, entreprise..." style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ddd; border-radius: 5px;" />
+      </div>
+
+      <!-- Job Listings -->
+      <div id="jobListings">
+        <!-- Example job card -->
+        <div class="feature-card" style="margin: 1rem 0; text-align: left; cursor: pointer;">
+          <h3>Technicien Informatique</h3>
+          <p><strong>Entreprise :</strong> TechLocal SARL</p>
+          <p><strong>Lieu :</strong> Abidjan, Cocody</p>
+          <p><strong>Type :</strong> CDI - Temps plein</p>
+          <p><strong>Salaire :</strong> 1 200 000 F CFA / mois</p>
+          <p><strong>Date :</strong> Publié il y a 2 jours</p>
+          <a href="#" class="btn" style="margin-top: 1rem;">Postuler maintenant</a>
+        </div>
+
+        <div class="feature-card" style="margin: 1rem 0; text-align: left; cursor: pointer;">
+          <h3>Commercial Terrain</h3>
+          <p><strong>Entreprise :</strong> AgroSud SA</p>
+          <p><strong>Lieu :</strong> Bouaké</p>
+          <p><strong>Type :</strong> CDD - Temps plein</p>
+          <p><strong>Salaire :</strong> 800 000 F CFA + commissions</p>
+          <p><strong>Date :</strong> Publié hier</p>
+          <a href="#" class="btn" style="margin-top: 1rem;">Postuler maintenant</a>
+        </div>
+
+        <div class="feature-card" style="margin: 1rem 0; text-align: left; cursor: pointer;">
+          <h3>Assistante Commerciale</h3>
+          <p><strong>Entreprise :</strong> Services Plus</p>
+          <p><strong>Lieu :</strong> Yamoussoukro</p>
+          <p><strong>Type :</strong> Stage 6 mois</p>
+          <p><strong>Rémunération :</strong> 150 000 F CFA / mois</p>
+          <p><strong>Date :</strong> Publié il y a 3 jours</p>
+          <a href="#" class="btn" style="margin-top: 1rem;">Postuler maintenant</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Lessara Ndjandja. Tous droits réservés.</p>
+    <p>Connecter les demandeurs d’emploi locaux aux offres disponibles.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
